@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>FORMULARIO</title>
+</head>
+
+<body>
+
+    <div class="div-principal">  
+        
+        <h1>Product Equiry</h1>
+
+        <form>
+            <p class="text">Name</p>
+            <input id="nameid" class="input-name" type="text" required="required">
+            <input class="input-name" type="text">
+
+            <p  class="text">Business email</p>
+            <input id="emailid" class="input-busness-email" type="text" required="required">
+
+            <p class="text">Phone</p>
+            <input id="phoneid" class="input-phone" type="text" required="required">
+
+            <p class="text">Select a plan</p>
+            <select  name="linguagem" required="required" class="inputSelect">
+                <option value="-Select-"> -Select- </option>
+                <option> Opcao 1 </option>
+                <option> Opcao 2 </option>
+                <option> Opcao 3 </option>
+            </select>
+        </form> <br>
+
+        <input id="msg" class="enviar" onclick="Enviar();"  type="submit" value="nome">
+
+        <script src="script.js"></script>
+
+    </div>
+
+</body>
+
+</html>

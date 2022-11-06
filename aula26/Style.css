@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.div-principal {
+    width: 500px;
+    padding: 50px;
+    margin-left: auto;    
+    margin-right: auto;
+}
+
+h1 {
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    border-top: 5px cyan solid ;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+    height: 25px;
+}
+
+.inputSelect {
+    height: 30px;
+    width: 70%;
+}
+
+.input-busness-email {
+    width: 92%;
+}
+
+.input-phone {
+    width: 70%;
+}
+
+.input-name {
+    width:45%;
+}
+
+.enviar {
+    margin-left: 45%;
+    width: 80px;
+    height: 40px;
+    background-color: cyan;
+    color: white;
+    border: none;
+}
